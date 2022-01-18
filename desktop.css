@@ -1,0 +1,79 @@
+
+/* for desktop */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91%;}
+.col-12 {width: 100%;}
+
+.navbar{
+    background-color: red;
+}
+.nav-logo{
+text-align: left;
+}
+.nav-heading {
+    text-align: right;
+}
+.nav-menu{
+    flex-direction: row;
+   justify-content: flex-end ;
+}
+.nav-menu a{
+    background-color: red;
+    padding: 5px 6px;
+    margin: 8px;
+}
+.nav-menu a:hover{
+    background-color: cadetblue;
+}
+/* profile designe*/
+
+.top-weather{
+    width: 120px;
+    bottom: 11px;
+    position: absolute;
+    right: 100px;
+   
+    transition: width 2s, transform 2s;
+
+}
+.top-weather:hover{
+    width: 150px;
+}
+.button-weather{
+    width: 120px;
+    
+    position: absolute;
+    left: 100px;
+   
+    transition: width 2s, transform 2s;
+
+}
+.button-weather:hover{
+    width: 150px;
+}
+.profile-desc p{
+    color:rgb(180, 41, 41);
+    text-align: center;
+    margin: 0 auto 20px auto;
+    width: 60%;
+}
+
+.about-me{
+    margin-top: 100px;
+}
+.about-me img{
+    height: 400px;
+    width: 350px;
+}
+.about-me-desc p{
+    text-align: left;
+}
